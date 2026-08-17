@@ -1,438 +1,125 @@
-# HistoryJanus baseline begin
-*.1 filter=lfs diff=lfs merge=lfs -text
-*.48719 text eol=lf
-*.7z filter=lfs diff=lfs merge=lfs -text
-*.@msg filter=lfs diff=lfs merge=lfs -text
-*.a filter=lfs diff=lfs merge=lfs -text
-*.a51 text eol=lf
-*.administrator text eol=lf
-*.ap15 text eol=lf
-*.asmdef text eol=lf
-*.asset text eol=lf
-*.autosave filter=lfs diff=lfs merge=lfs -text
-*.avi filter=lfs diff=lfs merge=lfs -text
-*.baml filter=lfs diff=lfs merge=lfs -text
-*.bin filter=lfs diff=lfs merge=lfs -text
-*.bip filter=lfs diff=lfs merge=lfs -text
-*.blend filter=lfs diff=lfs merge=lfs -text
-*.bmp filter=lfs diff=lfs merge=lfs -text
-*.bomdoc text eol=lf
-*.c text eol=lf
-*.caj filter=lfs diff=lfs merge=lfs -text
-*.cat filter=lfs diff=lfs merge=lfs -text
-*.cfs filter=lfs diff=lfs merge=lfs -text
-*.ckt text eol=lf
-*.cmd text eol=lf
-*.cnk filter=lfs diff=lfs merge=lfs -text
-*.config text eol=lf
-*.cpp text eol=lf
-*.cs text eol=lf
-*.csproj text eol=lf
-*.csv text eol=lf
-*.dat filter=lfs diff=lfs merge=lfs -text
-*.db filter=lfs diff=lfs merge=lfs -text
-*.db-shm filter=lfs diff=lfs merge=lfs -text
-*.db-wal filter=lfs diff=lfs merge=lfs -text
-*.del filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
-*.doc filter=lfs diff=lfs merge=lfs -text
-*.docm filter=lfs diff=lfs merge=lfs -text
-*.docx filter=lfs diff=lfs merge=lfs -text
-*.dti text eol=lf
-*.dwg filter=lfs diff=lfs merge=lfs -text
-*.dwlt text eol=lf
-*.dxf text eol=lf
-*.dylib filter=lfs diff=lfs merge=lfs -text
-*.editorconfig text eol=lf
-*.err text eol=lf
-*.exe filter=lfs diff=lfs merge=lfs -text
-*.fdt filter=lfs diff=lfs merge=lfs -text
-*.fdx filter=lfs diff=lfs merge=lfs -text
-*.fig filter=lfs diff=lfs merge=lfs -text
-*.filters text eol=lf
-*.flv filter=lfs diff=lfs merge=lfs -text
-*.fnm text eol=lf
-*.frq text eol=lf
-*.gen filter=lfs diff=lfs merge=lfs -text
-*.guid text eol=lf
-*.gx3 filter=lfs diff=lfs merge=lfs -text
-*.gz filter=lfs diff=lfs merge=lfs -text
-*.h text eol=lf
-*.hex filter=lfs diff=lfs merge=lfs -text
-*.htm text eol=lf
-*.html text eol=lf
-*.http text eol=lf
-*.ico filter=lfs diff=lfs merge=lfs -text
-*.id filter=lfs diff=lfs merge=lfs -text
-*.idx filter=lfs diff=lfs merge=lfs -text
-*.iex text eol=lf
-*.igs filter=lfs diff=lfs merge=lfs -text
-*.index filter=lfs diff=lfs merge=lfs -text
-*.inf text eol=lf
-*.ini text eol=lf
-*.ino text eol=lf
-*.inp0 text eol=lf
-*.inpx text eol=lf
-*.intlib filter=lfs diff=lfs merge=lfs -text
-*.ipch filter=lfs diff=lfs merge=lfs -text
-*.jar filter=lfs diff=lfs merge=lfs -text
-*.jfif filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.JPG filter=lfs diff=lfs merge=lfs -text
-*.js text eol=lf
-*.json text eol=lf
-*.jt filter=lfs diff=lfs merge=lfs -text
-*.ksp filter=lfs diff=lfs merge=lfs -text
-*.lastbuildstate text eol=lf
-*.layx text eol=lf
-*.lib filter=lfs diff=lfs merge=lfs -text
-*.libpkg text eol=lf
-*.lnk filter=lfs diff=lfs merge=lfs -text
-*.lnp text eol=lf
-*.lst text eol=lf
-*.m text eol=lf
-*.m51 text eol=lf
-*.manifest text eol=lf
-*.mcam filter=lfs diff=lfs merge=lfs -text
-*.mcam-control filter=lfs diff=lfs merge=lfs -text
-*.mcam-gmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-lmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-mmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-rmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-wmd filter=lfs diff=lfs merge=lfs -text
-*.md text eol=lf
-*.mdl text eol=lf
-*.meta text eol=lf
-*.mkv filter=lfs diff=lfs merge=lfs -text
-*.mltbx filter=lfs diff=lfs merge=lfs -text
-*.mod text eol=lf
-*.mov filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.nc text eol=lf
-*.nfproj text eol=lf
-*.nupkg filter=lfs diff=lfs merge=lfs -text
-*.original filter=lfs diff=lfs merge=lfs -text
-*.p7s filter=lfs diff=lfs merge=lfs -text
-*.pcbdoc filter=lfs diff=lfs merge=lfs -text
-*.pcblib filter=lfs diff=lfs merge=lfs -text
-*.pdbx text eol=lf
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.pe filter=lfs diff=lfs merge=lfs -text
-*.pl filter=lfs diff=lfs merge=lfs -text
-*.plf filter=lfs diff=lfs merge=lfs -text
-*.plg text eol=lf
-*.pma15_0 filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.pptx filter=lfs diff=lfs merge=lfs -text
-*.prefab text eol=lf
-*.pri filter=lfs diff=lfs merge=lfs -text
-*.projitems text eol=lf
-*.props text eol=lf
-*.prp filter=lfs diff=lfs merge=lfs -text
-*.prproj filter=lfs diff=lfs merge=lfs -text
-*.prt filter=lfs diff=lfs merge=lfs -text
-*.prtpl filter=lfs diff=lfs merge=lfs -text
-*.prx filter=lfs diff=lfs merge=lfs -text
-*.ps1 text eol=lf
-*.psb filter=lfs diff=lfs merge=lfs -text
-*.psm filter=lfs diff=lfs merge=lfs -text
-*.pst text eol=lf
-*.pubxml text eol=lf
-*.pwx filter=lfs diff=lfs merge=lfs -text
-*.py text eol=lf
-*.pyc filter=lfs diff=lfs merge=lfs -text
-*.pyproj text eol=lf
-*.qml text eol=lf
-*.r2021a filter=lfs diff=lfs merge=lfs -text
-*.razor text eol=lf
-*.rdf filter=lfs diff=lfs merge=lfs -text
-*.recipe text eol=lf
-*.resources filter=lfs diff=lfs merge=lfs -text
-*.resx text eol=lf
-*.rld filter=lfs diff=lfs merge=lfs -text
-*.rlf text eol=lf
-*.rsf text eol=lf
-*.rslib filter=lfs diff=lfs merge=lfs -text
-*.rsproj text eol=lf
-*.rsstnx text eol=lf
-*.rsuser text eol=lf
-*.rul text eol=lf
-*.schdoc filter=lfs diff=lfs merge=lfs -text
-*.schlib filter=lfs diff=lfs merge=lfs -text
-*.scr text eol=lf
-*.set text eol=lf
-*.settings text eol=lf
-*.sev text eol=lf
-*.shproj text eol=lf
-*.sldasm filter=lfs diff=lfs merge=lfs -text
-*.slddrw filter=lfs diff=lfs merge=lfs -text
-*.sldprt filter=lfs diff=lfs merge=lfs -text
-*.sln text eol=lf
-*.slx filter=lfs diff=lfs merge=lfs -text
-*.so filter=lfs diff=lfs merge=lfs -text
-*.srt filter=lfs diff=lfs merge=lfs -text
-*.step filter=lfs diff=lfs merge=lfs -text
-*.stp text eol=lf
-*.sys filter=lfs diff=lfs merge=lfs -text
-*.targets text eol=lf
-*.tii filter=lfs diff=lfs merge=lfs -text
-*.tis filter=lfs diff=lfs merge=lfs -text
-*.tooldb filter=lfs diff=lfs merge=lfs -text
-*.tvd filter=lfs diff=lfs merge=lfs -text
-*.tvf filter=lfs diff=lfs merge=lfs -text
-*.tvx filter=lfs diff=lfs merge=lfs -text
-*.txt text eol=lf
-*.unity text eol=lf
-*.uvopt text eol=lf
-*.uvproj text eol=lf
-*.v2 filter=lfs diff=lfs merge=lfs -text
-*.vb text eol=lf
-*.vbproj text eol=lf
-*.vcxproj text eol=lf
-*.vxd filter=lfs diff=lfs merge=lfs -text
-*.wmv filter=lfs diff=lfs merge=lfs -text
-*.xaml text eol=lf
-*.xls filter=lfs diff=lfs merge=lfs -text
-*.xlsx filter=lfs diff=lfs merge=lfs -text
-*.xmind filter=lfs diff=lfs merge=lfs -text
-*.xml text eol=lf
-*.xmp text eol=lf
-*.x_t filter=lfs diff=lfs merge=lfs -text
-*.yml text eol=lf
-*.zheng text eol=lf
-*.zw1 filter=lfs diff=lfs merge=lfs -text
-*._ text eol=lf
-# HistoryJanus baseline end
+# 极保守 LFS 策略：不按扩展名批量套 LFS。
+# 旧的按扩展名通配（*.asm / *.baml 这类文本也在内）是 11GB LFS 占用
+# 与推送被 GitHub pre-receive 拒收的根因。
+# 下面只逐条列出**已经是 LFS 指针**的现存文件，保证这些指针不失效；
+# 新文件一律不自动进 LFS——只有单个文件超过 GitHub 100MB 硬限时，
+# 才由提交链路逐个征求人工同意后按精确路径追加。
+* text=auto
 
-*.JPG filter=lfs diff=lfs merge=lfs -text
-*.PNG filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.stp filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.mkv filter=lfs diff=lfs merge=lfs -text
-*.wmv filter=lfs diff=lfs merge=lfs -text
-*.flv filter=lfs diff=lfs merge=lfs -text
-\# filter=lfs diff=lfs merge=lfs -text
-常见视频格式 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.mov filter=lfs diff=lfs merge=lfs -text
-*.avi filter=lfs diff=lfs merge=lfs -text
-Pro filter=lfs diff=lfs merge=lfs -text
-工程文件 filter=lfs diff=lfs merge=lfs -text
-*.prproj filter=lfs diff=lfs merge=lfs -text
-*.prp filter=lfs diff=lfs merge=lfs -text
-*.prtpl filter=lfs diff=lfs merge=lfs -text
-*.pl filter=lfs diff=lfs merge=lfs -text
-Premiere filter=lfs diff=lfs merge=lfs -text
-
-# HistoryJanus managed begin
-*.1 filter=lfs diff=lfs merge=lfs -text
-*.48719 text eol=lf
-*.7z filter=lfs diff=lfs merge=lfs -text
-*.@msg filter=lfs diff=lfs merge=lfs -text
-*.a filter=lfs diff=lfs merge=lfs -text
-*.a51 text eol=lf
-*.administrator text eol=lf
-*.ap15 text eol=lf
-*.asm text eol=lf
-*.asmdef text eol=lf
-*.asset text eol=lf
-*.autosave filter=lfs diff=lfs merge=lfs -text
-*.avi filter=lfs diff=lfs merge=lfs -text
-*.baml filter=lfs diff=lfs merge=lfs -text
-*.bin filter=lfs diff=lfs merge=lfs -text
-*.bip filter=lfs diff=lfs merge=lfs -text
-*.blend filter=lfs diff=lfs merge=lfs -text
-*.bmp filter=lfs diff=lfs merge=lfs -text
-*.bomdoc text eol=lf
-*.c text eol=lf
-*.caj filter=lfs diff=lfs merge=lfs -text
-*.cat filter=lfs diff=lfs merge=lfs -text
-*.cfg text eol=lf
-*.cfs filter=lfs diff=lfs merge=lfs -text
-*.ckt text eol=lf
-*.cmd text eol=lf
-*.cnk filter=lfs diff=lfs merge=lfs -text
-*.config text eol=lf
-*.cpp text eol=lf
-*.cs text eol=lf
-*.csproj text eol=lf
-*.csv text eol=lf
-*.dat filter=lfs diff=lfs merge=lfs -text
-*.db filter=lfs diff=lfs merge=lfs -text
-*.db-shm filter=lfs diff=lfs merge=lfs -text
-*.db-wal filter=lfs diff=lfs merge=lfs -text
-*.del filter=lfs diff=lfs merge=lfs -text
-*.dft text eol=lf
-*.dll filter=lfs diff=lfs merge=lfs -text
-*.doc filter=lfs diff=lfs merge=lfs -text
-*.docm filter=lfs diff=lfs merge=lfs -text
-*.docx filter=lfs diff=lfs merge=lfs -text
-*.dti text eol=lf
-*.dwg filter=lfs diff=lfs merge=lfs -text
-*.dwlt text eol=lf
-*.dxf text eol=lf
-*.dylib filter=lfs diff=lfs merge=lfs -text
-*.editorconfig text eol=lf
-*.err text eol=lf
-*.exe filter=lfs diff=lfs merge=lfs -text
-*.fdt filter=lfs diff=lfs merge=lfs -text
-*.fdx filter=lfs diff=lfs merge=lfs -text
-*.fig filter=lfs diff=lfs merge=lfs -text
-*.filters text eol=lf
-*.flv filter=lfs diff=lfs merge=lfs -text
-*.fnm text eol=lf
-*.frq text eol=lf
-*.gen filter=lfs diff=lfs merge=lfs -text
-*.guid text eol=lf
-*.gx3 filter=lfs diff=lfs merge=lfs -text
-*.gz filter=lfs diff=lfs merge=lfs -text
-*.h text eol=lf
-*.hex filter=lfs diff=lfs merge=lfs -text
-*.htm text eol=lf
-*.html text eol=lf
-*.http text eol=lf
-*.ico filter=lfs diff=lfs merge=lfs -text
-*.id filter=lfs diff=lfs merge=lfs -text
-*.idx filter=lfs diff=lfs merge=lfs -text
-*.iex text eol=lf
-*.igs filter=lfs diff=lfs merge=lfs -text
-*.index filter=lfs diff=lfs merge=lfs -text
-*.inf text eol=lf
-*.ini text eol=lf
-*.ino text eol=lf
-*.inp0 text eol=lf
-*.inpx text eol=lf
-*.intlib filter=lfs diff=lfs merge=lfs -text
-*.ipch filter=lfs diff=lfs merge=lfs -text
-*.jar filter=lfs diff=lfs merge=lfs -text
-*.jfif filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.JPG filter=lfs diff=lfs merge=lfs -text
-*.js text eol=lf
-*.json text eol=lf
-*.jt filter=lfs diff=lfs merge=lfs -text
-*.ksp filter=lfs diff=lfs merge=lfs -text
-*.lastbuildstate text eol=lf
-*.layx text eol=lf
-*.lib filter=lfs diff=lfs merge=lfs -text
-*.libpkg text eol=lf
-*.lnk filter=lfs diff=lfs merge=lfs -text
-*.lnp text eol=lf
-*.lst text eol=lf
-*.m text eol=lf
-*.m51 text eol=lf
-*.manifest text eol=lf
-*.mcam filter=lfs diff=lfs merge=lfs -text
-*.mcam-control filter=lfs diff=lfs merge=lfs -text
-*.mcam-gmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-lmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-mmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-rmd filter=lfs diff=lfs merge=lfs -text
-*.mcam-wmd filter=lfs diff=lfs merge=lfs -text
-*.md text eol=lf
-*.mdl text eol=lf
-*.meta text eol=lf
-*.mkv filter=lfs diff=lfs merge=lfs -text
-*.mltbx filter=lfs diff=lfs merge=lfs -text
-*.mod text eol=lf
-*.mov filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.nc text eol=lf
-*.nfproj text eol=lf
-*.nupkg filter=lfs diff=lfs merge=lfs -text
-*.original filter=lfs diff=lfs merge=lfs -text
-*.p7s filter=lfs diff=lfs merge=lfs -text
-*.par text eol=lf
-*.pcbdoc filter=lfs diff=lfs merge=lfs -text
-*.pcblib filter=lfs diff=lfs merge=lfs -text
-*.pdbx text eol=lf
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.pe filter=lfs diff=lfs merge=lfs -text
-*.pl filter=lfs diff=lfs merge=lfs -text
-*.plf filter=lfs diff=lfs merge=lfs -text
-*.plg text eol=lf
-*.pma15_0 filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.pptx filter=lfs diff=lfs merge=lfs -text
-*.prefab text eol=lf
-*.pri filter=lfs diff=lfs merge=lfs -text
-*.projitems text eol=lf
-*.props text eol=lf
-*.prp filter=lfs diff=lfs merge=lfs -text
-*.prproj filter=lfs diff=lfs merge=lfs -text
-*.prt filter=lfs diff=lfs merge=lfs -text
-*.prtpl filter=lfs diff=lfs merge=lfs -text
-*.prx filter=lfs diff=lfs merge=lfs -text
-*.ps1 text eol=lf
-*.psb filter=lfs diff=lfs merge=lfs -text
-*.psm filter=lfs diff=lfs merge=lfs -text
-*.pst text eol=lf
-*.pubxml text eol=lf
-*.pwx filter=lfs diff=lfs merge=lfs -text
-*.py text eol=lf
-*.pyc filter=lfs diff=lfs merge=lfs -text
-*.pyproj text eol=lf
-*.qml text eol=lf
-*.r2021a filter=lfs diff=lfs merge=lfs -text
-*.razor text eol=lf
-*.rdf filter=lfs diff=lfs merge=lfs -text
-*.recipe text eol=lf
-*.resources filter=lfs diff=lfs merge=lfs -text
-*.resx text eol=lf
-*.rld filter=lfs diff=lfs merge=lfs -text
-*.rlf text eol=lf
-*.rsf text eol=lf
-*.rslib filter=lfs diff=lfs merge=lfs -text
-*.rsproj text eol=lf
-*.rsstnx text eol=lf
-*.rsuser text eol=lf
-*.rul text eol=lf
-*.schdoc filter=lfs diff=lfs merge=lfs -text
-*.schlib filter=lfs diff=lfs merge=lfs -text
-*.scr text eol=lf
-*.set text eol=lf
-*.settings text eol=lf
-*.sev text eol=lf
-*.shproj text eol=lf
-*.sldasm filter=lfs diff=lfs merge=lfs -text
-*.slddrw filter=lfs diff=lfs merge=lfs -text
-*.sldprt filter=lfs diff=lfs merge=lfs -text
-*.sln text eol=lf
-*.slx filter=lfs diff=lfs merge=lfs -text
-*.so filter=lfs diff=lfs merge=lfs -text
-*.srt filter=lfs diff=lfs merge=lfs -text
-*.step filter=lfs diff=lfs merge=lfs -text
-*.stp text eol=lf
-*.sys filter=lfs diff=lfs merge=lfs -text
-*.targets text eol=lf
-*.tii filter=lfs diff=lfs merge=lfs -text
-*.tis filter=lfs diff=lfs merge=lfs -text
-*.tooldb filter=lfs diff=lfs merge=lfs -text
-*.tvd filter=lfs diff=lfs merge=lfs -text
-*.tvf filter=lfs diff=lfs merge=lfs -text
-*.tvx filter=lfs diff=lfs merge=lfs -text
-*.txt text eol=lf
-*.unity text eol=lf
-*.uvopt text eol=lf
-*.uvproj text eol=lf
-*.v2 filter=lfs diff=lfs merge=lfs -text
-*.vb text eol=lf
-*.vbproj text eol=lf
-*.vcxproj text eol=lf
-*.vxd filter=lfs diff=lfs merge=lfs -text
-*.wmv filter=lfs diff=lfs merge=lfs -text
-*.xaml text eol=lf
-*.xls filter=lfs diff=lfs merge=lfs -text
-*.xlsx filter=lfs diff=lfs merge=lfs -text
-*.xmind filter=lfs diff=lfs merge=lfs -text
-*.xml text eol=lf
-*.xmp text eol=lf
-*.x_t filter=lfs diff=lfs merge=lfs -text
-*.yml text eol=lf
-*.zheng text eol=lf
-*.zw1 filter=lfs diff=lfs merge=lfs -text
-*._ text eol=lf
-# HistoryJanus managed end
+b-EPLAN/N0000.edb/Images/EPLAN.jpg filter=lfs diff=lfs merge=lfs -text
+b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0300-电箱-A3.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0310-电箱外壳-A3.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0320-绝缘板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0330-垫片套管.pdf filter=lfs diff=lfs merge=lfs -text
+"b-Module-2D/0340-电箱din导轨 800.pdf" filter=lfs diff=lfs merge=lfs -text
+"b-Module-2D/0350-电箱din导轨 400.pdf" filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0400-传感器.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0410-开关支架.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0500-水泵.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0510-水泵安装板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0700-水盆-A3.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0710-水盆本体.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0720-水盆后盖板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0730-水盆连接件.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0800-连接口.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/0810-连接盒-A3.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1000-框架.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1100-型材框架-A3.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1200-连接件.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1400-隔板b.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1410-隔板b单件.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1500-隔板a.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1510-隔板a单件.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1600-隔板c.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1610-隔板c单件.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1700-隔板d.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1710-隔板d单件.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1800-隔板e.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/1810-隔板e单件.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2100-固定环1.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2200-固定环2.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2300-前传动轴.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2310-前传动轴架.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2320-转动轴（前）.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2330-防油轴套-3.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2340-环.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2400-后传动轴.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2410-后传动轴1.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2420-后传动轴架2.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/2430-转动轴(后).pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3100-顶板（双门带锁）.pdf filter=lfs diff=lfs merge=lfs -text
+"b-Module-2D/3120-顶板水箱盖 .pdf" filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3130-顶板框.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3200-小车入口盖板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3210-前板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3300-背板装配（含水槽出口）.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3310-背板（大）.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3400-侧板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/3410-侧板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4110-摇臂1.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4120-摇臂2.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4130-轴承垫套.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4150-防油轴套-5.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4170-挡油环.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4180-环.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4190-钉子.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4310-侧平面.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4320-上固定.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4340-开关挡片.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4350-橡胶垫片.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4400-左托板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4410-侧平面.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4420-上固定.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4450-橡胶垫片.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4460-主体.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4600-左连杆.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4610-侧边架左下.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4620-下固定.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4700-右连杆.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4710-下固定.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4720-侧边架右下.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4800-脚钉.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4810-脚钉.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4900-固定机构.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4910-竖杆.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4920-连接.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/4930-轴.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/5000-电机.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/5300-连接.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/5310-连接板1.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/5400-传动.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/5410-轴.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/5420-垫圈.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/6000-净水.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/6200-连接.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/6210-连接板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/7000-控制盒.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/7100-三色灯装配.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/7110-三色灯连接板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/7210-控制面板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/7310-控制盒体.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/8000-吹干.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/8100-气排座.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/8110-垫板安装板.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/8200-竹节管.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/9000-气动电磁阀.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/9010-支架.pdf filter=lfs diff=lfs merge=lfs -text
+b-Module-2D/工程图.dwg filter=lfs diff=lfs merge=lfs -text
+b-Module-SE/0300-电箱/Thumbs.db filter=lfs diff=lfs merge=lfs -text
+b-Module-SE/4000-抬升/新建文件夹/_model1.prt filter=lfs diff=lfs merge=lfs -text
+b-Module-SE/4000-抬升/新建文件夹/零件1_par.prt filter=lfs diff=lfs merge=lfs -text
+b-Module-SE/4000-抬升/新建文件夹/零件1_par.stp filter=lfs diff=lfs merge=lfs -text
+b-Module-SE/6000-净水/6100-净水器/净水器装配.IGS filter=lfs diff=lfs merge=lfs -text
+b-Module-SW/0-装配体.SLDASM filter=lfs diff=lfs merge=lfs -text
+b-Module-SW/零件.SLDPRT filter=lfs diff=lfs merge=lfs -text
+b-Office/BOM表.xlsx filter=lfs diff=lfs merge=lfs -text
+b-Office/洗论机介绍.pptx filter=lfs diff=lfs merge=lfs -text
+b-Office/电气BOM表.xlsx filter=lfs diff=lfs merge=lfs -text
+b-Office/立项报告.doc filter=lfs diff=lfs merge=lfs -text
+b-Picture/效果图.png filter=lfs diff=lfs merge=lfs -text
+"b-References/19010555-SC_A10《AM400 系列可编程控制器（NPN输出）用户手册》 .pdf" filter=lfs diff=lfs merge=lfs -text
+b-References/19010754-SC_A08《GL10-0016ER数字量输出模块用户手册》.pdf filter=lfs diff=lfs merge=lfs -text
+b-References/SV605N系列伺服用户手册-CN-A02.PDF filter=lfs diff=lfs merge=lfs -text
+b-References/水泵设计验证.docx filter=lfs diff=lfs merge=lfs -text
+b-Video/洗轮机效果图.mp4 filter=lfs diff=lfs merge=lfs -text
