@@ -1,125 +1,121 @@
-# 极保守 LFS 策略：不按扩展名批量套 LFS。
-# 旧的按扩展名通配（*.asm / *.baml 这类文本也在内）是 11GB LFS 占用
-# 与推送被 GitHub pre-receive 拒收的根因。
-# 下面只逐条列出**已经是 LFS 指针**的现存文件，保证这些指针不失效；
-# 新文件一律不自动进 LFS——只有单个文件超过 GitHub 100MB 硬限时，
-# 才由提交链路逐个征求人工同意后按精确路径追加。
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
 * text=auto
 
-b-EPLAN/N0000.edb/Images/EPLAN.jpg filter=lfs diff=lfs merge=lfs -text
-b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0300-电箱-A3.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0310-电箱外壳-A3.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0320-绝缘板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0330-垫片套管.pdf filter=lfs diff=lfs merge=lfs -text
-"b-Module-2D/0340-电箱din导轨 800.pdf" filter=lfs diff=lfs merge=lfs -text
-"b-Module-2D/0350-电箱din导轨 400.pdf" filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0400-传感器.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0410-开关支架.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0500-水泵.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0510-水泵安装板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0700-水盆-A3.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0710-水盆本体.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0720-水盆后盖板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0730-水盆连接件.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0800-连接口.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/0810-连接盒-A3.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1000-框架.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1100-型材框架-A3.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1200-连接件.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1400-隔板b.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1410-隔板b单件.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1500-隔板a.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1510-隔板a单件.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1600-隔板c.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1610-隔板c单件.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1700-隔板d.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1710-隔板d单件.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1800-隔板e.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/1810-隔板e单件.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2100-固定环1.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2200-固定环2.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2300-前传动轴.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2310-前传动轴架.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2320-转动轴（前）.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2330-防油轴套-3.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2340-环.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2400-后传动轴.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2410-后传动轴1.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2420-后传动轴架2.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/2430-转动轴(后).pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3100-顶板（双门带锁）.pdf filter=lfs diff=lfs merge=lfs -text
-"b-Module-2D/3120-顶板水箱盖 .pdf" filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3130-顶板框.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3200-小车入口盖板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3210-前板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3300-背板装配（含水槽出口）.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3310-背板（大）.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3400-侧板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/3410-侧板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4110-摇臂1.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4120-摇臂2.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4130-轴承垫套.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4150-防油轴套-5.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4170-挡油环.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4180-环.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4190-钉子.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4310-侧平面.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4320-上固定.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4340-开关挡片.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4350-橡胶垫片.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4400-左托板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4410-侧平面.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4420-上固定.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4450-橡胶垫片.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4460-主体.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4600-左连杆.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4610-侧边架左下.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4620-下固定.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4700-右连杆.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4710-下固定.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4720-侧边架右下.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4800-脚钉.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4810-脚钉.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4900-固定机构.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4910-竖杆.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4920-连接.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/4930-轴.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/5000-电机.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/5300-连接.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/5310-连接板1.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/5400-传动.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/5410-轴.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/5420-垫圈.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/6000-净水.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/6200-连接.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/6210-连接板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/7000-控制盒.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/7100-三色灯装配.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/7110-三色灯连接板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/7210-控制面板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/7310-控制盒体.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/8000-吹干.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/8100-气排座.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/8110-垫板安装板.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/8200-竹节管.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/9000-气动电磁阀.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/9010-支架.pdf filter=lfs diff=lfs merge=lfs -text
-b-Module-2D/工程图.dwg filter=lfs diff=lfs merge=lfs -text
-b-Module-SE/0300-电箱/Thumbs.db filter=lfs diff=lfs merge=lfs -text
-b-Module-SE/4000-抬升/新建文件夹/_model1.prt filter=lfs diff=lfs merge=lfs -text
-b-Module-SE/4000-抬升/新建文件夹/零件1_par.prt filter=lfs diff=lfs merge=lfs -text
-b-Module-SE/4000-抬升/新建文件夹/零件1_par.stp filter=lfs diff=lfs merge=lfs -text
-b-Module-SE/6000-净水/6100-净水器/净水器装配.IGS filter=lfs diff=lfs merge=lfs -text
-b-Module-SW/0-装配体.SLDASM filter=lfs diff=lfs merge=lfs -text
-b-Module-SW/零件.SLDPRT filter=lfs diff=lfs merge=lfs -text
-b-Office/BOM表.xlsx filter=lfs diff=lfs merge=lfs -text
-b-Office/洗论机介绍.pptx filter=lfs diff=lfs merge=lfs -text
-b-Office/电气BOM表.xlsx filter=lfs diff=lfs merge=lfs -text
-b-Office/立项报告.doc filter=lfs diff=lfs merge=lfs -text
-b-Picture/效果图.png filter=lfs diff=lfs merge=lfs -text
-"b-References/19010555-SC_A10《AM400 系列可编程控制器（NPN输出）用户手册》 .pdf" filter=lfs diff=lfs merge=lfs -text
-b-References/19010754-SC_A08《GL10-0016ER数字量输出模块用户手册》.pdf filter=lfs diff=lfs merge=lfs -text
-b-References/SV605N系列伺服用户手册-CN-A02.PDF filter=lfs diff=lfs merge=lfs -text
-b-References/水泵设计验证.docx filter=lfs diff=lfs merge=lfs -text
-b-Video/洗轮机效果图.mp4 filter=lfs diff=lfs merge=lfs -text
+b-EPLAN/N0000.edb/Images/EPLAN.jpg -text
+b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP -text
+b-Module-2D/0300-电箱-A3.pdf -text
+b-Module-2D/0310-电箱外壳-A3.pdf -text
+b-Module-2D/0320-绝缘板.pdf -text
+b-Module-2D/0330-垫片套管.pdf -text
+"b-Module-2D/0340-电箱din导轨 800.pdf" -text
+"b-Module-2D/0350-电箱din导轨 400.pdf" -text
+b-Module-2D/0400-传感器.pdf -text
+b-Module-2D/0410-开关支架.pdf -text
+b-Module-2D/0500-水泵.pdf -text
+b-Module-2D/0510-水泵安装板.pdf -text
+b-Module-2D/0700-水盆-A3.pdf -text
+b-Module-2D/0710-水盆本体.pdf -text
+b-Module-2D/0720-水盆后盖板.pdf -text
+b-Module-2D/0730-水盆连接件.pdf -text
+b-Module-2D/0800-连接口.pdf -text
+b-Module-2D/0810-连接盒-A3.pdf -text
+b-Module-2D/1000-框架.pdf -text
+b-Module-2D/1100-型材框架-A3.pdf -text
+b-Module-2D/1200-连接件.pdf -text
+b-Module-2D/1400-隔板b.pdf -text
+b-Module-2D/1410-隔板b单件.pdf -text
+b-Module-2D/1500-隔板a.pdf -text
+b-Module-2D/1510-隔板a单件.pdf -text
+b-Module-2D/1600-隔板c.pdf -text
+b-Module-2D/1610-隔板c单件.pdf -text
+b-Module-2D/1700-隔板d.pdf -text
+b-Module-2D/1710-隔板d单件.pdf -text
+b-Module-2D/1800-隔板e.pdf -text
+b-Module-2D/1810-隔板e单件.pdf -text
+b-Module-2D/2100-固定环1.pdf -text
+b-Module-2D/2200-固定环2.pdf -text
+b-Module-2D/2300-前传动轴.pdf -text
+b-Module-2D/2310-前传动轴架.pdf -text
+b-Module-2D/2320-转动轴（前）.pdf -text
+b-Module-2D/2330-防油轴套-3.pdf -text
+b-Module-2D/2340-环.pdf -text
+b-Module-2D/2400-后传动轴.pdf -text
+b-Module-2D/2410-后传动轴1.pdf -text
+b-Module-2D/2420-后传动轴架2.pdf -text
+b-Module-2D/2430-转动轴(后).pdf -text
+b-Module-2D/3100-顶板（双门带锁）.pdf -text
+"b-Module-2D/3120-顶板水箱盖 .pdf" -text
+b-Module-2D/3130-顶板框.pdf -text
+b-Module-2D/3200-小车入口盖板.pdf -text
+b-Module-2D/3210-前板.pdf -text
+b-Module-2D/3300-背板装配（含水槽出口）.pdf -text
+b-Module-2D/3310-背板（大）.pdf -text
+b-Module-2D/3400-侧板.pdf -text
+b-Module-2D/3410-侧板.pdf -text
+b-Module-2D/4110-摇臂1.pdf -text
+b-Module-2D/4120-摇臂2.pdf -text
+b-Module-2D/4130-轴承垫套.pdf -text
+b-Module-2D/4150-防油轴套-5.pdf -text
+b-Module-2D/4170-挡油环.pdf -text
+b-Module-2D/4180-环.pdf -text
+b-Module-2D/4190-钉子.pdf -text
+b-Module-2D/4310-侧平面.pdf -text
+b-Module-2D/4320-上固定.pdf -text
+b-Module-2D/4340-开关挡片.pdf -text
+b-Module-2D/4350-橡胶垫片.pdf -text
+b-Module-2D/4400-左托板.pdf -text
+b-Module-2D/4410-侧平面.pdf -text
+b-Module-2D/4420-上固定.pdf -text
+b-Module-2D/4450-橡胶垫片.pdf -text
+b-Module-2D/4460-主体.pdf -text
+b-Module-2D/4600-左连杆.pdf -text
+b-Module-2D/4610-侧边架左下.pdf -text
+b-Module-2D/4620-下固定.pdf -text
+b-Module-2D/4700-右连杆.pdf -text
+b-Module-2D/4710-下固定.pdf -text
+b-Module-2D/4720-侧边架右下.pdf -text
+b-Module-2D/4800-脚钉.pdf -text
+b-Module-2D/4810-脚钉.pdf -text
+b-Module-2D/4900-固定机构.pdf -text
+b-Module-2D/4910-竖杆.pdf -text
+b-Module-2D/4920-连接.pdf -text
+b-Module-2D/4930-轴.pdf -text
+b-Module-2D/5000-电机.pdf -text
+b-Module-2D/5300-连接.pdf -text
+b-Module-2D/5310-连接板1.pdf -text
+b-Module-2D/5400-传动.pdf -text
+b-Module-2D/5410-轴.pdf -text
+b-Module-2D/5420-垫圈.pdf -text
+b-Module-2D/6000-净水.pdf -text
+b-Module-2D/6200-连接.pdf -text
+b-Module-2D/6210-连接板.pdf -text
+b-Module-2D/7000-控制盒.pdf -text
+b-Module-2D/7100-三色灯装配.pdf -text
+b-Module-2D/7110-三色灯连接板.pdf -text
+b-Module-2D/7210-控制面板.pdf -text
+b-Module-2D/7310-控制盒体.pdf -text
+b-Module-2D/8000-吹干.pdf -text
+b-Module-2D/8100-气排座.pdf -text
+b-Module-2D/8110-垫板安装板.pdf -text
+b-Module-2D/8200-竹节管.pdf -text
+b-Module-2D/9000-气动电磁阀.pdf -text
+b-Module-2D/9010-支架.pdf -text
+b-Module-2D/工程图.dwg -text
+b-Module-SE/0300-电箱/Thumbs.db -text
+b-Module-SE/4000-抬升/新建文件夹/_model1.prt -text
+b-Module-SE/4000-抬升/新建文件夹/零件1_par.prt -text
+b-Module-SE/4000-抬升/新建文件夹/零件1_par.stp -text
+b-Module-SE/6000-净水/6100-净水器/净水器装配.IGS -text
+b-Module-SW/0-装配体.SLDASM -text
+b-Module-SW/零件.SLDPRT -text
+b-Office/BOM表.xlsx -text
+b-Office/洗论机介绍.pptx -text
+b-Office/电气BOM表.xlsx -text
+b-Office/立项报告.doc -text
+b-Picture/效果图.png -text
+"b-References/19010555-SC_A10《AM400 系列可编程控制器（NPN输出）用户手册》 .pdf" -text
+b-References/19010754-SC_A08《GL10-0016ER数字量输出模块用户手册》.pdf -text
+b-References/SV605N系列伺服用户手册-CN-A02.PDF -text
+b-References/水泵设计验证.docx -text
+b-Video/洗轮机效果图.mp4 -text
